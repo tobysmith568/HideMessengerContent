@@ -1,0 +1,3 @@
+ul[aria-label="Conversation list"] li div a div div div:last-child span span:last-child {
+	display: none;
+}

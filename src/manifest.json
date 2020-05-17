@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Hide Messenger Messages",
+  "version": "0.1.0",
+  "description": "Hides the content of your most recent messenger message for each chat",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://www.messenger.com/*"]
+  }]
+ 
+}
